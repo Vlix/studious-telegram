@@ -1,0 +1,98 @@
+/flat-1
+
+benchmarking stack build
+time                 7.968 s    (7.567 s .. 8.275 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 8.073 s    (8.009 s .. 8.137 s)
+std dev              79.33 ms   (39.29 ms .. 102.3 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+
+/flat-8
+
+benchmarking stack build
+time                 8.943 s    (8.698 s .. 9.237 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 9.064 s    (9.001 s .. 9.124 s)
+std dev              76.16 ms   (37.61 ms .. 93.45 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+
+/flat-16
+
+benchmarking stack build
+time                 10.58 s    (10.10 s .. 11.13 s)
+                     1.000 R²   (0.999 R² .. 1.000 R²)
+mean                 10.42 s    (10.28 s .. 10.50 s)
+std dev              128.9 ms   (46.54 ms .. 169.4 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+
+/flat-32
+
+benchmarking stack build
+time                 13.16 s    (12.05 s .. 15.22 s)
+                     0.997 R²   (0.993 R² .. 1.000 R²)
+mean                 13.03 s    (12.71 s .. 13.20 s)
+std dev              308.7 ms   (170.0 ms .. 371.8 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+
+/flat-64
+
+benchmarking stack build
+time                 18.45 s    (17.05 s .. 19.24 s)
+                     0.999 R²   (0.999 R² .. 1.000 R²)
+mean                 18.52 s    (18.25 s .. 18.74 s)
+std dev              279.3 ms   (215.8 ms .. 329.4 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+------------------------------------
+/flat-1
+
+benchmarking stack build --ghc-options="-O2"
+time                 7.882 s    (7.136 s .. 8.371 s)
+                     0.999 R²   (0.997 R² .. 1.000 R²)
+mean                 8.137 s    (7.986 s .. 8.224 s)
+std dev              144.6 ms   (40.75 ms .. 192.8 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+
+/flat-8
+
+benchmarking stack build --ghc-options="-O2"
+time                 9.142 s    (8.178 s .. 9.885 s)
+                     0.999 R²   (0.996 R² .. 1.000 R²)
+mean                 9.275 s    (9.155 s .. 9.473 s)
+std dev              194.6 ms   (66.72 ms .. 264.1 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+
+/flat-16
+
+benchmarking stack build --ghc-options="-O2"
+time                 10.66 s    (9.664 s .. 11.77 s)
+                     0.999 R²   (0.995 R² .. 1.000 R²)
+mean                 10.56 s    (10.40 s .. 10.76 s)
+std dev              195.4 ms   (84.90 ms .. 271.9 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+
+/flat-32
+
+benchmarking stack build --ghc-options="-O2"
+time                 13.59 s    (12.54 s .. 14.52 s)
+                     0.999 R²   (0.997 R² .. 1.000 R²)
+mean                 13.35 s    (13.13 s .. 13.53 s)
+std dev              248.5 ms   (82.63 ms .. 338.9 ms)
+variance introduced by outliers: 19% (moderately inflated)
+
+
+/flat-64
+
+benchmarking stack build --ghc-options="-O2"
+time                 19.27 s    (18.93 s .. 19.82 s)
+                     1.000 R²   (1.000 R² .. 1.000 R²)
+mean                 19.33 s    (19.22 s .. 19.40 s)
+std dev              114.1 ms   (66.46 ms .. 160.4 ms)
+variance introduced by outliers: 19% (moderately inflated)
